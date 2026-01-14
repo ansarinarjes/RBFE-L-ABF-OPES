@@ -1,5 +1,12 @@
-This repository contains all necessary input files to execute dual-LAO simulations for each specified target and ligand pair. The data is organized by target protein, then by specific ligand pairs, covering both the complex and solvent phases.Directory StructureThe internal folder hierarchy is organized as follows:PlaintextTarget/
+# Dual-LAO Simulation Inputs
 
+This repository contains all necessary input files to execute **dual-LAO simulations** for each specified target and ligand pair. The data is organized by target protein, then by specific ligand pairs, covering both the complex and solvent phases.
+
+## Directory Structure
+The internal folder hierarchy is organized as follows:
+
+```plaintext
+Target/
 └── [Pair_Name]/
     ├── complex/          # Parameters and coordinates for the protein-ligand system
     │   ├── input.xyz     # Tinker XYZ Cartesian coordinates
@@ -10,5 +17,3 @@ This repository contains all necessary input files to execute dual-LAO simulatio
         ├── input.xyz
         ├── input.key
         ├── colvars.in
-
-File DescriptionsFile Extension / NameDescriptionTinker XYZ (.xyz)Contains the Cartesian coordinates and atom connectivity for the system.Key File (.key)Defines the force field parameters, periodic box dimensions, and simulation constants.Colvars InputSpecifies the collective variables and biases used for the dual-LAO sampling.Reference StructureA static structure file used for alignment or defining relative restraints during the simulation.
