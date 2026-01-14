@@ -1,1 +1,1 @@
-This repository contains all the input files used for the Daul-LAP paper: "Fast, systematic and robust relative binding free energies for simple and complex transformations : Dual-LAO" (https://doi.org/10.48550/arXiv.2512.17624).
+This repository contains all the input files used for the Daul-LAO paper: "Fast, systematic and robust relative binding free energies for simple and complex transformations : Dual-LAO" (https://doi.org/10.48550/arXiv.2512.17624).
